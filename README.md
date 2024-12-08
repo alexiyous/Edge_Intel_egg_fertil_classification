@@ -43,6 +43,7 @@ You can also directly use this project repo (look in the **class** folder) and f
 
 # Steps
 - Go to the Deployment page in the Edge Impulse project. Select C++ libraries. Scroll down, and click Build.
+![deploy](assets/clib.png)
 - Create a directory to hold the project. Unzip the C++ Library file into the project directory.
 - If you use this repo, you can move the **class** folder into your Raspberry Pi's File Explorer. (This repo uses Debian Linux OS)
 - File Structure:
@@ -58,6 +59,7 @@ You can also directly use this project repo (look in the **class** folder) and f
 - You can pay attention to the main.cpp file. This script will set up and call the model along with the required libraries. You can see this documentation to further customize as needed: https://docs.edgeimpulse.com/docs/run-inference/cpp-library/deploy-your-model-as-a-c-library
 - You can use the Makefile and Make tool scripts to compile all the necessary source code, link the object files, and produce a single executable file
 - Extract raw features from one of the testing sample files (grayscale features from the egg image). This could be done from the Edge Impulse project on **Image** tab
+![raw](assets/raw-features.png)
 - Sample raw features: **0.0567, 0.0589, 0.0688, 0.0688, 0.0767, 0.0708, 0.0756, 0.0817, 0.0835, 0.0853, 0.0938,...**
 - Put the raw feature results into the **input_buff** struct in main.cpp
 - If you use this repo project, you can directly safe raw features into a .txt file and enter the file path into the terminal input later when run using the Make command. This will automatically put the raw features from the path into the input_buff struct.
@@ -68,7 +70,12 @@ You can also directly use this project repo (look in the **class** folder) and f
 
 
 # Evaluation Result
+
+### Result Output
 ![Result](assets/Test-result.png)
+
+### Metrics Result
+![metrics](assets/metrics.png)
 
 # Conclusion
 This project successfully concludes all goals, providing a low-cost automatic candling method with an easy to use system. This system achieved a high accuracy and fast computation time thanks to Raspberry Pi 5 which can reduces the time consume and the need of good eyesight.
