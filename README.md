@@ -78,14 +78,23 @@ You can also directly use this project repo (look in the **class** folder) and f
 - If you use this repo project, you can directly safe raw features into a .txt file and enter the file path into the terminal input later when run using the Make command. This will automatically put the raw features from the path into the input_buff struct.
 - Open Terminal, navigate to the project directory, and run the make command using -j [jobs] to speed up multi-threaded processing, For example:
 `cd my-project/make-j 4`
+- When its successfully build the main.cpp, there will be a new directory named build with a file called app which is the main application
 
 # Demo Usage
-After the app is successfully build, you can use the app with the steps below:
+After the main.cpp is successfully build, you can use the main application with the steps below:
 1. Go to the class folder
-`cd class`
+```
+cd class
+```
 2. Run the application
-`./build/app`
-
+```
+./build/app
+```
+If you want to change the image sample, you must manually put the raw features of other sample into the main.cpp as mentioned before and build it again.
+But if you use our code, simply do the same step 2 with added image.txt path on the end
+```
+./build/app path/to/image
+```
 
 # Evaluation Result
 
