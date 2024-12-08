@@ -42,9 +42,9 @@ You can use your own sample data for training and testing at Edge Impulse Studio
 - **train_labels.csv**: .csv version from the train_labels.
 
 ### Test Data
-- **test_data.npy**: numpy file containing data image information for training.
-- **test_labels.json**: .json file containing the labels and bounding box data for training.
-- **test_labels.csv**: .csv version from the train_labels.
+- **test_data.npy**: numpy file containing data image information for testing.
+- **test_labels.json**: .json file containing the labels and bounding box data for testing.
+- **test_labels.csv**: .csv version from the test_labels.
   
 # Deployment Steps
 Because this project uses Edge Impulse, make sure training and testing comply with the documentation on Edge Impulse.
