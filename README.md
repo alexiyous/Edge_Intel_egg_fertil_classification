@@ -91,7 +91,7 @@ cd class
 ./build/app
 ```
 If you want to change the image sample, you must manually put the raw features of other sample into the main.cpp as mentioned before and build it again.
-But if you use our code, simply do the same step as before with a bit different code for step 2 by adding image.txt path on the end
+But if you use our code, simply put image.txt path at the end of the command like this
 ```
 ./build/app path/to/image
 ```
