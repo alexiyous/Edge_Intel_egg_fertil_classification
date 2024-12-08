@@ -77,14 +77,14 @@ You can also directly use this project repo (look in the **class** folder) and f
 - Put the raw feature results into the **input_buff** struct in main.cpp
 - If you use this repo project, you can directly safe raw features into a .txt file and enter the file path into the terminal input later when run using the Make command. This will automatically put the raw features from the path into the input_buff struct.
 - Open Terminal, navigate to the project directory, and run the make command using -j [jobs] to speed up multi-threaded processing, For example:
-'cd my-project/make-j 4'
+`cd my-project/make-j 4`
 
 # Demo Usage
 After the app is successfully build, you can use the app with the steps below:
 1. Go to the class folder
-'cd class'
+`cd class`
 2. Run the application
-'./build/app'
+`./build/app`
 
 
 # Evaluation Result
