@@ -25,4 +25,4 @@ Eggs are essential commodities in Indonesia with high demand, requiring consiste
 - **Raspberry Pi** Adapter: Powers the Raspberry Pi 5
 
 ### Schematics
-
+![schematic](assets/Raspberry 5 schematics.jpg)
