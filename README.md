@@ -33,6 +33,19 @@ Eggs are essential commodities in Indonesia with high demand, requiring consiste
 ### Design System
 ![Design-System](assets/system-architect.png)
 
+# Data Samples
+You can use your own sample data for training and testing at Edge Impulse Studio (since this repo uses Edge Impulse), but you can look in the **Data Samples** folder.
+
+### Train Data
+- **train_data.npy**: numpy file containing data image information for training.
+- **train_labels.json**: .json file containing the labels and bounding box data for training.
+- **train_labels.csv**: .csv version from the train_labels.
+
+### Test Data
+- **test_data.npy**: numpy file containing data image information for training.
+- **test_labels.json**: .json file containing the labels and bounding box data for training.
+- **test_labels.csv**: .csv version from the train_labels.
+  
 # Deployment Steps
 Because this project uses Edge Impulse, make sure training and testing comply with the documentation on Edge Impulse.
 
@@ -41,7 +54,7 @@ https://studio.edgeimpulse.com/public/571394/live
 
 You can also directly use this project repo (look in the **class** folder) and follow the steps below:
 
-# Steps
+### Steps
 - Go to the Deployment page in the Edge Impulse project. Select C++ libraries. Scroll down, and click Build.
 ![deploy](assets/clib.png)
 - Create a directory to hold the project. Unzip the C++ Library file into the project directory.
