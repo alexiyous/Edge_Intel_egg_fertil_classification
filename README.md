@@ -76,10 +76,15 @@ You can also directly use this project repo (look in the **class** folder) and f
 - Sample raw features: **0.0567, 0.0589, 0.0688, 0.0688, 0.0767, 0.0708, 0.0756, 0.0817, 0.0835, 0.0853, 0.0938,...**
 - Put the raw feature results into the **input_buff** struct in main.cpp
 - If you use this repo project, you can directly safe raw features into a .txt file and enter the file path into the terminal input later when run using the Make command. This will automatically put the raw features from the path into the input_buff struct.
-- Open Terminal, navigate to the project directory, and run the make command using -j [jobs] to speed up multi-threaded processing
-- Command: **cd my-project/make-j 4**
-- Run the application when the build process is complete
-- Command: **./build/app**
+- Open Terminal, navigate to the project directory, and run the make command using -j [jobs] to speed up multi-threaded processing, For example:
+'cd my-project/make-j 4'
+
+# Demo Usage
+After the app is successfully build, you can use the app with the steps below:
+1. Go to the class folder
+'cd class'
+2. Run the application
+'./build/app'
 
 
 # Evaluation Result
